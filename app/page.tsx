@@ -2,9 +2,10 @@
 import Image from "next/image";
 import { useState } from "react";
 import { motion } from "framer-motion";
+import type { Variants } from "framer-motion";
 import { ArrowDownRight, ArrowRight, Check, ChevronDown, Menu, MoveUpRight, ShieldCheck, Sparkles, X, Zap } from "lucide-react";
 
-const fadeUp = { hidden: { opacity: 0, y: 28 }, show: { opacity: 1, y: 0, transition: { duration: .7, ease: "easeOut" } } };
+const fadeUp: Variants = { hidden: { opacity: 0, y: 28 }, show: { opacity: 1, y: 0, transition: { duration: .7, ease: "easeOut" } } };
 export default function Home() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [interest, setInterest] = useState("Bireysel satın alma");
