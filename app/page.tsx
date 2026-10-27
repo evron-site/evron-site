@@ -4,7 +4,7 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import { ArrowDownRight, ArrowRight, Check, ChevronDown, Menu, MoveUpRight, ShieldCheck, Sparkles, X, Zap } from "lucide-react";
 
-const fadeUp = { hidden: { opacity: 0, y: 28 }, show: { opacity: 1, y: 0, transition: { duration: .7, ease: [0.22,1,0.36,1] } } };
+const fadeUp = { hidden: { opacity: 0, y: 28 }, show: { opacity: 1, y: 0, transition: { duration: .7, ease: "easeOut" } } };
 export default function Home() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [interest, setInterest] = useState("Bireysel satın alma");
