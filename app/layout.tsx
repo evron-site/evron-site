@@ -4,7 +4,7 @@ export const metadata: Metadata = {
   title: "EVRON — Engineered for the Unknown",
   description: "EVRON Control. Yeni nesil, uzaktan kontrol edilebilir mobil aydınlatma konsepti.",
   verification: {
-    google: "<meta name="google-site-verification" content="YllYWReQcy0-GHey3__O8upIOFPo020cf7RiPMyiC-Q" />",
+    google: "YllYWReQcy0-GHey3__O8upIOFPo020cf7RiC-Q",
   },
 };
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
